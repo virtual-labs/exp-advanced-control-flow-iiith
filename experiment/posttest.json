@@ -1,18 +1,44 @@
 [
-{"question":"This is a Sample Question 1?",
+    {"question":"For loop can be converted into equivalent while loop",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"True",
+            "b":"False"
           },
-"correctAnswer":"a"},
-{"question":"This is a Sample Question 2?",
+     "correctAnswer":"a"},
+        {"question":"Loop can not be nested",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"True",
+            "b":"False"
           },
-"correctAnswer":"c"} 
+	 "correctAnswer":"b"},
+        {"question":"When break is encountered inside any loop, control automatically passes to the beginning of the loop.",
+"answers":{
+            "a":"True",
+            "b":"False"
+          },
+	 "correctAnswer":"b"}, 
+    {"question":"Which of the following is not a loop in C",
+"answers":{
+            "a":"Repeat",
+            "b":"Do while",
+            "c":"While",
+            "d":"For"
+          },
+     "correctAnswer":"a"},
+    {"question":"Which of the following is an exit controlled loop:",
+"answers":{
+            "a":"For",
+            "b":"While",
+            "c":"Do-While",
+            "d":"None of the above"
+          },
+"correctAnswer":"c"},
+{"question":"Which among the following is an unconditional control structure:",
+"answers":{
+            "a":"Goto",
+            "b":"Break",
+            "c":"Continue",
+            "d":"If else"
+          },
+"correctAnswer":"a"} 
 ]

@@ -1,18 +1,49 @@
 [
-{"question":"This is a Sample Question 1?",
+{"question":"The execution of a loop typically starts with:",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"Initialization statements",
+            "b":"Loop body",
+            "c":"Test condition",
+            "d":"Update statements"
           },
 "correctAnswer":"a"},
-{"question":"This is a Sample Question 2?",
+
+{"question":"The break statement is used to exit from:",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"An if statement",
+            "b":"A for loop",
+            "c":"A program",
+            "d":"The main( ) function"
           },
-"correctAnswer":"c"} 
+ "correctAnswer":"b"},
+    {"question":"A do-while loop is useful when we want that the statements within the loop must be executed",
+"answers":{
+            "a":"Only once",
+            "b":"At Least Once",
+            "c":"More than once",
+            "d":"None of the above"
+          },
+     "correctAnswer":"b"},
+    {"question":"In what sequence the initialization, testing and execution of body is done in a do-while loop ",
+"answers":{
+            "a":"Initialization, execution of body, testing",
+            "b":"Execution of body, initialization, testing ",
+            "c":"Initialization, testing, execution of body ",
+            "d":"None of the above"
+          },
+     "correctAnswer":"a"},
+    {"question":" Which of the following statement is used to take the control to the beginning of the loop?  ",
+"answers":{
+            "a":"Exit",
+            "b":"Break",
+            "c":"Continue",
+            "d":"None of the above"
+          },
+"correctAnswer":"c"},
+    {"question":"Multiple intialization is not possible in for loop",
+"answers":{
+            "a":"True",
+            "b":"False"
+          },
+"correctAnswer":"b"} 
 ]
