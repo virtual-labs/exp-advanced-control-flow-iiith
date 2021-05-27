@@ -30,7 +30,7 @@ The sequence of execution of statements is:
 
 Everytime when the test expression is evaluated, if it becomes false, then the loop is exited. This image shows the steps taken for this.
 
-<img src="flowchart_for.jpg">
+<img src="images/flowchart_for.jpg">
 
 
 #### While loop
