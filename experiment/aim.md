@@ -8,8 +8,3 @@ Apart from this, there is another class of constructs called loops, which can be
 In this lab, we shall see the working of looping constructs.
 
 
-#### Objective
-
-1. To learn how decision making is done while programming.
-
-2. To learn about the various advanced constructs used for control flow in order to achieve repetition of instructions. 
