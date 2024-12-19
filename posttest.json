@@ -1,0 +1,90 @@
+[
+{"question":"1. When break is encountered inside any loop, control automatically passes to the beginning of the loop.",
+"answers":{
+            "a":"True",
+            "b":"False"
+          },
+"correctAnswer":"b"}, 
+
+{"question":"2. Which of the following is not a loop in C",
+"answers":{
+            "a":"Repeat",
+            "b":"Do while",
+            "c":"While",
+            "d":"For"
+          },
+"correctAnswer":"a"},
+
+{"question":"3. What is the output of the following code <br/> <img src='images/code13.png'>",
+"answers":{
+            "a":"Syntax Error",
+            "b":"1 2 ",
+            "c":"1 2 3",
+            "d":"Print nothing"
+          },
+"correctAnswer":"d"},
+
+{"question":"4. What is the output of the following code <br/> <img src='images/code14.png'>",
+"answers":{
+            "a":"0",
+            "b":"1",
+            "c":"2",
+            "d":"3"
+          },
+"correctAnswer":"a"},
+
+{"question":"5. What is the output of the following code <br/>   <img src='images/code15.png'>",
+"answers":{
+            "a":"Hello World",
+            "b":"Syntax error",
+            "c":"Print nothing",
+            "d":"Run Time error"
+          },
+"correctAnswer":"d"},
+
+{"question":"6. Which is the output of the following code <br/> <img src='images/code16.png'>",
+"answers":{
+            "a":"Syntax Error",
+            "b":"Hello",
+            "c":"HelloHello",
+            "d":"Infinite Loop"
+          },
+"correctAnswer":"d"},
+
+{"question":"7. What is the output of the following code: <br/>  <img src='images/code17.png'>",
+"answers":{
+            "a":"1",
+            "b":"2",
+            "c":"1 2 ",
+            "d":"1 2 3"
+          },
+"correctAnswer":"c"},
+
+{"question":"8. How many * this code will print: <br/>  <img src='images/code18.png'>",
+"answers":{
+            "a":"25",
+            "b":"20",
+            "c":"15",
+            "d":"10"
+          },
+"correctAnswer":"c"},
+
+{"question":"9. Which of the following is an exit controlled loop:",
+"answers":{
+            "a":"For",
+            "b":"While",
+            "c":"Do-While",
+            "d":"None of the above"
+          },
+"correctAnswer":"c"},
+
+{"question":"10. Which among the following is an unconditional control structure:",
+"answers":{
+            "a":"Goto",
+            "b":"Break",
+            "c":"Continue",
+            "d":"If else"
+          },
+"correctAnswer":"a"} 
+
+]

@@ -1,0 +1,86 @@
+[
+{"question":"1. The execution of a loop typically starts with:",
+"answers":{
+            "a":"Initialization statements",
+            "b":"Loop body",
+            "c":"Test condition",
+            "d":"Update statements"
+          },
+"correctAnswer":"a"},
+
+{"question":"2. The break statement is used to exit from:",
+"answers":{
+            "a":"An if statement",
+            "b":"A for loop",
+            "c":"A program",
+            "d":"The main( ) function"
+          },
+ "correctAnswer":"b"},
+
+{"question":"3. A do-while loop is useful when we want that the statements within the loop must be executed",
+"answers":{
+            "a":"Only once",
+            "b":"At Least Once",
+            "c":"More than once",
+            "d":"None of the above"
+          },
+"correctAnswer":"b"},
+
+{"question":"4. In what sequence the initialization, testing and execution of body is done in a do-while loop ",
+"answers":{
+            "a":"Initialization, execution of body, testing",
+            "b":"Execution of body, initialization, testing ",
+            "c":"Initialization, testing, execution of body ",
+            "d":"None of the above"
+          },
+"correctAnswer":"a"},
+
+{"question":"5. Which of the following is not an infinite loop",
+"answers":{
+            "a":"<img src='images/code5.1.png'>",
+            "b":"<img src='images/code5.2.png'>",
+            "c":"<img src='images/code5.3.png'>",
+            "d":"<img src='images/code5.4.png'>"
+          },
+"correctAnswer":"c"},
+
+{"question":"6. Which of the following statement is used to take the control to the beginning of the loop?  ",
+"answers":{
+            "a":"Exit",
+            "b":"Break",
+            "c":"Continue",
+            "d":"None of the above"
+          },
+"correctAnswer":"c"},
+
+{"question":"7. How many * this code will print: <br/>  <img src='images/code7.png'>",
+"answers":{
+            "a":"0",
+            "b":"1",
+            "c":"2",
+            "d":"3"
+          },
+"correctAnswer":"c"},
+
+{"question":"8. Multiple intialization is not possible in for loop",
+"answers":{
+            "a":"True",
+            "b":"False"
+          },
+"correctAnswer":"b"},
+
+{"question":"9. For loop can be converted into equivalent while loop",
+"answers":{
+            "a":"True",
+            "b":"False"
+          },
+"correctAnswer":"a"},
+
+{"question":"10. Loop can not be nested",
+"answers":{
+            "a":"True",
+            "b":"False"
+          },
+"correctAnswer":"b"}
+ 
+]
