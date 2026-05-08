@@ -11,7 +11,8 @@
       "explanations": {
         "a": "Incorrect. The break statement causes an immediate exit from the loop, not a jump to the beginning.",
         "b": "Correct. The break statement exits the loop and does not return to the beginning."
-      }
+      },
+      "difficulty": "beginner"
     },
     {
       "question": "2. Which of the following is not a loop in C?",
@@ -27,7 +28,8 @@
         "b": "Incorrect. 'Do while' is a valid loop in C.",
         "c": "Incorrect. 'While' is a valid loop in C.",
         "d": "Incorrect. 'For' is a valid loop in C."
-      }
+      },
+      "difficulty": "beginner"
     },
     {
       "question": "3. What is the output of the following code? <br/> <img src='images/code13.png'>",
@@ -43,7 +45,8 @@
         "b": "Incorrect. The loop condition is never true, so nothing is printed.",
         "c": "Incorrect. The loop does not execute, so no numbers are printed.",
         "d": "Correct. The loop does not execute, so nothing is printed."
-      }
+      },
+      "difficulty": "beginner"
     },
     {
       "question": "4. What is the output of the following code? <br/> <img src='images/code14.png'>",
@@ -59,7 +62,8 @@
         "b": "Incorrect. The value printed is 0, not 1.",
         "c": "Incorrect. The value printed is 0, not 2.",
         "d": "Incorrect. The value printed is 0, not 3."
-      }
+      },
+      "difficulty": "beginner"
     },
     {
       "question": "5. What is the output of the following code? <br/> <img src='images/code15.png'>",
@@ -75,7 +79,8 @@
         "b": "Incorrect. The code is syntactically correct.",
         "c": "Incorrect. The code prints repeatedly until a runtime error occurs.",
         "d": "Correct. The code results in a runtime error due to infinite loop with decreasing i."
-      }
+      },
+      "difficulty": "intermediate"
     },
     {
       "question": "6. What is the output of the following code? <br/> <img src='images/code16.png'>",
@@ -91,7 +96,8 @@
         "b": "Incorrect. The code prints 'Hello' infinitely, not just once.",
         "c": "Incorrect. The code prints 'Hello' infinitely, not just twice.",
         "d": "Correct. The code is an infinite loop printing 'Hello'."
-      }
+      },
+      "difficulty": "intermediate"
     },
     {
       "question": "7. What is the output of the following code? <br/> <img src='images/code17.png'>",
@@ -107,7 +113,8 @@
         "b": "Incorrect. The loop prints both 1 and 2.",
         "c": "Correct. The loop prints 1 and 2, then stops.",
         "d": "Incorrect. The loop does not print 3."
-      }
+      },
+      "difficulty": "intermediate"
     },
     {
       "question": "8. How many '*' will this code print? <br/> <img src='images/code18.png'>",
@@ -123,7 +130,8 @@
         "b": "Incorrect. The code prints 15 '*' in total.",
         "c": "Correct. The nested loops print 15 '*' in total.",
         "d": "Incorrect. The code prints 15 '*' in total."
-      }
+      },
+      "difficulty": "intermediate"
     },
     {
       "question": "9. Which of the following is an exit-controlled loop?",
@@ -139,7 +147,8 @@
         "b": "Incorrect. 'While' is an entry-controlled loop.",
         "c": "Correct. 'Do-While' is an exit-controlled loop because the condition is checked after the body.",
         "d": "Incorrect. Option c is the correct answer."
-      }
+      },
+      "difficulty": "advanced"
     },
     {
       "question": "10. Which among the following is an unconditional control structure?",
@@ -155,7 +164,8 @@
         "b": "Incorrect. 'Break' is a conditional control statement used within loops or switch.",
         "c": "Incorrect. 'Continue' is a conditional control statement used within loops.",
         "d": "Incorrect. 'If else' is a conditional control structure."
-      }
+      },
+      "difficulty": "advanced"
     }
   ]
 }
