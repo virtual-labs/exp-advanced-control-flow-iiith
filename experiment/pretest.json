@@ -1,86 +1,163 @@
-[
-{"question":"1. The execution of a loop typically starts with:",
-"answers":{
-            "a":"Initialization statements",
-            "b":"Loop body",
-            "c":"Test condition",
-            "d":"Update statements"
-          },
-"correctAnswer":"a"},
-
-{"question":"2. The break statement is used to exit from:",
-"answers":{
-            "a":"An if statement",
-            "b":"A for loop",
-            "c":"A program",
-            "d":"The main( ) function"
-          },
- "correctAnswer":"b"},
-
-{"question":"3. A do-while loop is useful when we want that the statements within the loop must be executed",
-"answers":{
-            "a":"Only once",
-            "b":"At Least Once",
-            "c":"More than once",
-            "d":"None of the above"
-          },
-"correctAnswer":"b"},
-
-{"question":"4. In what sequence the initialization, testing and execution of body is done in a do-while loop ",
-"answers":{
-            "a":"Initialization, execution of body, testing",
-            "b":"Execution of body, initialization, testing ",
-            "c":"Initialization, testing, execution of body ",
-            "d":"None of the above"
-          },
-"correctAnswer":"a"},
-
-{"question":"5. Which of the following is not an infinite loop",
-"answers":{
-            "a":"<img src='images/code5.1.png'>",
-            "b":"<img src='images/code5.2.png'>",
-            "c":"<img src='images/code5.3.png'>",
-            "d":"<img src='images/code5.4.png'>"
-          },
-"correctAnswer":"c"},
-
-{"question":"6. Which of the following statement is used to take the control to the beginning of the loop?  ",
-"answers":{
-            "a":"Exit",
-            "b":"Break",
-            "c":"Continue",
-            "d":"None of the above"
-          },
-"correctAnswer":"c"},
-
-{"question":"7. How many * this code will print: <br/>  <img src='images/code7.png'>",
-"answers":{
-            "a":"0",
-            "b":"1",
-            "c":"2",
-            "d":"3"
-          },
-"correctAnswer":"c"},
-
-{"question":"8. Multiple intialization is not possible in for loop",
-"answers":{
-            "a":"True",
-            "b":"False"
-          },
-"correctAnswer":"b"},
-
-{"question":"9. For loop can be converted into equivalent while loop",
-"answers":{
-            "a":"True",
-            "b":"False"
-          },
-"correctAnswer":"a"},
-
-{"question":"10. Loop can not be nested",
-"answers":{
-            "a":"True",
-            "b":"False"
-          },
-"correctAnswer":"b"}
- 
-]
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The execution of a loop typically starts with:",
+      "answers": {
+        "a": "Initialization statements",
+        "b": "Loop body",
+        "c": "Test condition",
+        "d": "Update statements"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Initialization statements set up the loop variables before the loop starts.",
+        "b": "Incorrect. The loop body is executed after initialization and condition checking.",
+        "c": "Incorrect. The test condition is checked after initialization.",
+        "d": "Incorrect. Update statements are executed after the loop body in each iteration."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The break statement is used to exit from:",
+      "answers": {
+        "a": "An if statement",
+        "b": "A for loop",
+        "c": "A program",
+        "d": "The main() function"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. The break statement does not exit an if statement directly; it is used in loops or switch statements.",
+        "b": "Correct. The break statement is used to exit from a loop such as a for loop.",
+        "c": "Incorrect. The break statement does not terminate the entire program.",
+        "d": "Incorrect. The break statement does not exit the main() function."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. A do-while loop is useful when we want the statements within the loop to be executed:",
+      "answers": {
+        "a": "Only once",
+        "b": "At least once",
+        "c": "More than once",
+        "d": "None of the above"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. The loop may execute more than once depending on the condition.",
+        "b": "Correct. A do-while loop always executes its body at least once before checking the condition.",
+        "c": "Incorrect. It may execute only once if the condition is false after the first iteration.",
+        "d": "Incorrect. Option b is the correct description."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. In what sequence are initialization, testing, and execution of the body done in a do-while loop?",
+      "answers": {
+        "a": "Initialization, execution of body, testing",
+        "b": "Execution of body, initialization, testing",
+        "c": "Initialization, testing, execution of body",
+        "d": "None of the above"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. In a do-while loop, initialization happens first, then the body is executed, and then the condition is tested.",
+        "b": "Incorrect. Initialization must occur before the body is executed.",
+        "c": "Incorrect. Testing occurs after the body in a do-while loop.",
+        "d": "Incorrect. Option a is the correct sequence."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Which of the following is not an infinite loop?",
+      "answers": {
+        "a": "<img src='images/code5.1.png'>",
+        "b": "<img src='images/code5.2.png'>",
+        "c": "<img src='images/code5.3.png'>",
+        "d": "<img src='images/code5.4.png'>"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. This code is an infinite loop because the condition is always true and there is no break.",
+        "b": "Incorrect. This code is an infinite loop for the same reason as option a.",
+        "c": "Correct. This code is not an infinite loop because the loop variable is updated so that the condition eventually becomes false.",
+        "d": "Incorrect. This code is an infinite loop."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. Which of the following statements is used to take control to the beginning of the loop?",
+      "answers": {
+        "a": "Exit",
+        "b": "Break",
+        "c": "Continue",
+        "d": "None of the above"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. 'Exit' is not a standard C statement for loops.",
+        "b": "Incorrect. 'Break' exits the loop, not restart it.",
+        "c": "Correct. 'Continue' skips the rest of the loop body and starts the next iteration.",
+        "d": "Incorrect. Option c is the correct answer."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. How many '*' will this code print? <br/> <img src='images/code7.png'>",
+      "answers": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "3"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. The loop runs twice, so two '*' are printed.",
+        "b": "Incorrect. The loop runs twice, not once.",
+        "c": "Correct. The loop runs for i=1 and i=2, printing '*' twice.",
+        "d": "Incorrect. The loop does not run three times."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "8. Multiple initialization is not possible in a for loop.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Multiple initialization is possible in a for loop using commas.",
+        "b": "Correct. You can initialize multiple variables in a for loop, separated by commas."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "9. A for loop can be converted into an equivalent while loop.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Any for loop can be rewritten as a while loop with equivalent logic.",
+        "b": "Incorrect. For loops and while loops are interchangeable in logic."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "10. Loops cannot be nested.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Loops can be nested inside each other in C and most programming languages.",
+        "b": "Correct. Loops can be nested."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}

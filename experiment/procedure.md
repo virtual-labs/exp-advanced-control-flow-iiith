@@ -1,25 +1,39 @@
-Procedure for the experiment is as follows.
+This simulation allows you to explore two main experiments:
 
-#### Experiment 1:
+1. **Factorial Calculation using Loops**
+2. **Pyramid Pattern using Nested Loops**
 
-- Choose experiment type by pressing the "Switch experiment" button on the bottom left.
-- Select the looping construct with which you want to solve the problem.
-- Enter the number for which factorial has to be calculated and press OK.
-- Press Start to start the experiment.
-- Click Next to get a step by step execution of the code.
+You can switch between these two modes at any time using the **Switch to Nested Loop** or **Switch to Simple Loop** button. Each experiment can be performed in two ways:
 
+- Start with the default mode (Simple Loop for factorial, Nested Loop for pyramid)
+- Or switch to the other mode using the switch button
 
-#### Experiment 2:
+---
 
-- Choose experiment type by pressing the "Switch experiment" button on the bottom left.
-- Enter the height of pyramid and press OK.
-- Press Start to start the experiment.
-- Click Next to get a step by step execution of the code.
+### Experiment 1: Factorial Calculation (Simple Loop)
 
-#### Manual
+1. By default, the simulation opens in the Simple Loop mode.
+2. Select the loop type (`for`, `while`, or `do-while`) from the dropdown menu.
+3. Enter the number for which you want to calculate the factorial.
+4. Click **Start** to begin the simulation.
+5. The code for the selected loop will be displayed, and the **Next** button will be enabled.
+6. Click **Next** repeatedly to execute the code step by step. The current line and local variables will be highlighted and updated after each step.
+7. To try the pyramid pattern experiment, click **Switch to Nested Loop**.
 
-Here we shall see how various looping constructs can be used to find the factorial of a positive integer.
- 
-In the other part of the experiment, we shall see how nesting of loops can be done to create a pattern of any size that looks like a pyramid. 
+### Experiment 2: Pyramid Pattern (Nested Loop)
 
+1. Click **Switch to Nested Loop** to open the nested loop simulation (or start here if already in this mode).
+2. Enter the desired height of the pyramid.
+3. Click **Start** to begin the simulation.
+4. The code for the nested loop will be displayed, and the **Next** button will be enabled.
+5. Click **Next** repeatedly to execute the code step by step. The current line and local variables will be highlighted and updated, and the pyramid pattern will be displayed.
+6. To return to factorial calculation, click **Switch to Simple Loop**.
 
+---
+
+### Manual
+
+This simulation demonstrates:
+
+- How different looping constructs (`for`, `while`, `do-while`) can be used to calculate the factorial of a positive integer.
+- How nested loops can be used to generate a pyramid pattern of any given height.
