@@ -31,6 +31,10 @@ You can switch between these two modes at any time using the **Switch to Nested 
 
 ---
 
+**Note for Mobile Users:**
+
+This simulation is optimized for desktop computers with larger screens and mouse interaction. If you access this experiment on a mobile device, please rotate your device to **landscape mode** for the best experience. Some features may be limited or harder to use on small screens.
+
 ### Manual
 
 This simulation demonstrates:
