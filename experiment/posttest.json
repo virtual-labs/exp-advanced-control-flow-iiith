@@ -9,7 +9,7 @@
       },
       "correctAnswer": "b",
       "explanations": {
-        "a": "Incorrect. The break statement causes an immediate exit from the loop, not a jump to the beginning.",
+        "a": "Incorrect. A break exits the current loop immediately instead of restarting it.",
         "b": "Correct. The break statement exits the loop and does not return to the beginning."
       },
       "difficulty": "beginner"
@@ -25,9 +25,9 @@
       "correctAnswer": "a",
       "explanations": {
         "a": "Correct. 'Repeat' is not a standard loop construct in C.",
-        "b": "Incorrect. 'Do while' is a valid loop in C.",
-        "c": "Incorrect. 'While' is a valid loop in C.",
-        "d": "Incorrect. 'For' is a valid loop in C."
+        "b": "Incorrect. This is a valid loop structure in C, though it is evaluated after the body runs once.",
+        "c": "Incorrect. This is a standard repetition construct used for conditional iteration.",
+        "d": "Incorrect. This is a standard loop used when the iteration count is known."
       },
       "difficulty": "beginner"
     },
@@ -41,9 +41,9 @@
       },
       "correctAnswer": "d",
       "explanations": {
-        "a": "Incorrect. The code is syntactically correct.",
-        "b": "Incorrect. The loop condition is never true, so nothing is printed.",
-        "c": "Incorrect. The loop does not execute, so no numbers are printed.",
+        "a": "Incorrect. The code is syntactically valid and the statements are in a proper loop form.",
+        "b": "Incorrect. The condition is checked before any iteration begins, so the loop does not continue in the way this option suggests.",
+        "c": "Incorrect. The loop body is not entered because the condition is never satisfied.",
         "d": "Correct. The loop does not execute, so nothing is printed."
       },
       "difficulty": "beginner"
@@ -59,9 +59,9 @@
       "correctAnswer": "a",
       "explanations": {
         "a": "Correct. The loop executes once, printing 0, then i becomes -1 and the loop ends.",
-        "b": "Incorrect. The value printed is 0, not 1.",
-        "c": "Incorrect. The value printed is 0, not 2.",
-        "d": "Incorrect. The value printed is 0, not 3."
+        "b": "Incorrect. The body runs before the variable is changed, so the first output is not higher than the initial value.",
+        "c": "Incorrect. The loop does not continue long enough to produce a larger first output.",
+        "d": "Incorrect. The loop ends after a single pass in this case."
       },
       "difficulty": "beginner"
     },
@@ -75,9 +75,9 @@
       },
       "correctAnswer": "d",
       "explanations": {
-        "a": "Incorrect. The loop never terminates, causing a runtime error (stack overflow or infinite loop).",
-        "b": "Incorrect. The code is syntactically correct.",
-        "c": "Incorrect. The code prints repeatedly until a runtime error occurs.",
+        "a": "Incorrect. The loop does not terminate normally, so the program does not reach a clean final output.",
+        "b": "Incorrect. The code is valid C syntax even though the control flow is problematic.",
+        "c": "Incorrect. The loop is not designed to stop immediately, so the body continues to repeat.",
         "d": "Correct. The code results in a runtime error due to infinite loop with decreasing i."
       },
       "difficulty": "intermediate"
@@ -92,9 +92,9 @@
       },
       "correctAnswer": "d",
       "explanations": {
-        "a": "Incorrect. The code is syntactically correct.",
-        "b": "Incorrect. The code prints 'Hello' infinitely, not just once.",
-        "c": "Incorrect. The code prints 'Hello' infinitely, not just twice.",
+        "a": "Incorrect. The code is syntactically valid and follows correct loop syntax.",
+        "b": "Incorrect. The body executes repeatedly and does not stop after a single pass.",
+        "c": "Incorrect. The iteration keeps repeating, so the statement is not a one-time or two-time print.",
         "d": "Correct. The code is an infinite loop printing 'Hello'."
       },
       "difficulty": "intermediate"
@@ -109,10 +109,10 @@
       },
       "correctAnswer": "c",
       "explanations": {
-        "a": "Incorrect. The loop prints both 1 and 2.",
-        "b": "Incorrect. The loop prints both 1 and 2.",
+        "a": "Incorrect. The loop does more than a single print during its execution.",
+        "b": "Incorrect. The loop control variable is processed through more than one value before stopping.",
         "c": "Correct. The loop prints 1 and 2, then stops.",
-        "d": "Incorrect. The loop does not print 3."
+        "d": "Incorrect. The loop terminates before a third value is generated."
       },
       "difficulty": "intermediate"
     },
@@ -126,10 +126,10 @@
       },
       "correctAnswer": "c",
       "explanations": {
-        "a": "Incorrect. The code prints 15 '*' in total.",
-        "b": "Incorrect. The code prints 15 '*' in total.",
+        "a": "Incorrect. The nested iteration count is lower than 25 for the given bounds.",
+        "b": "Incorrect. The total prints are determined by the nested loop structure, not a single loop count.",
         "c": "Correct. The nested loops print 15 '*' in total.",
-        "d": "Incorrect. The code prints 15 '*' in total."
+        "d": "Incorrect. The loops together perform more iterations than this option suggests."
       },
       "difficulty": "intermediate"
     },
@@ -143,10 +143,10 @@
       },
       "correctAnswer": "c",
       "explanations": {
-        "a": "Incorrect. 'For' is an entry-controlled loop.",
-        "b": "Incorrect. 'While' is an entry-controlled loop.",
+        "a": "Incorrect. A for loop checks the condition before each iteration begins.",
+        "b": "Incorrect. A while loop evaluates its condition before the body executes.",
         "c": "Correct. 'Do-While' is an exit-controlled loop because the condition is checked after the body.",
-        "d": "Incorrect. Option c is the correct answer."
+        "d": "Incorrect. One of the standard loop types is exit-controlled."
       },
       "difficulty": "advanced"
     },
@@ -161,9 +161,9 @@
       "correctAnswer": "a",
       "explanations": {
         "a": "Correct. 'Goto' is an unconditional control structure as it transfers control unconditionally.",
-        "b": "Incorrect. 'Break' is a conditional control statement used within loops or switch.",
-        "c": "Incorrect. 'Continue' is a conditional control statement used within loops.",
-        "d": "Incorrect. 'If else' is a conditional control structure."
+        "b": "Incorrect. This statement jumps out of a loop or switch rather than transferring control unconditionally.",
+        "c": "Incorrect. This keyword skips the remaining body and continues to the next iteration.",
+        "d": "Incorrect. This is a conditional branch structure, not an unconditional jump."
       },
       "difficulty": "advanced"
     }
