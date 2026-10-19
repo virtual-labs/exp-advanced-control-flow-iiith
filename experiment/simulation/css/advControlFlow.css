@@ -337,16 +337,20 @@ body {
   font-size: 1.1em;
 }
 
+.localVariables.hide {
+  display: none;
+}
+
 .variableBox {
   width: 80%;
-  height: 33%;
+  height: 25%;
   float: left;
   margin-left: 10%;
 }
 
 .variableName {
   float: left;
-  width: 15%;
+  width: 25%;
   height: 99%;
   text-align: left;
 }
@@ -358,15 +362,33 @@ body {
   text-align: left;
 }
 
-.outputResult {
+.stepNote {
   position: absolute;
-  padding-top: 3%;
   top: 36%;
   left: 5%;
   width: 90%;
-  height: 60%;
+  min-height: 8%;
+  text-align: left;
+  font-size: 1em;
+  color: #2a65a0;
+}
+
+.programOutput {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.outputResult {
+  position: absolute;
+  padding-top: 3%;
+  top: 46%;
+  left: 5%;
+  width: 90%;
+  height: 50%;
   border: 1px solid #ccc;
   font-size: 1.2em;
+  font-family: Consolas, "Courier New", monospace;
   border-radius: 5px;
   overflow: auto;
   line-height: 140%;
