@@ -1,0 +1,171 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. When break is encountered inside any loop, control automatically passes to the beginning of the loop.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. A break exits the current loop immediately instead of restarting it.",
+        "b": "Correct. The break statement exits the loop and does not return to the beginning."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which of the following is not a loop in C?",
+      "answers": {
+        "a": "Repeat",
+        "b": "Do while",
+        "c": "While",
+        "d": "For"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. 'Repeat' is not a standard loop construct in C.",
+        "b": "Incorrect. This is a valid loop structure in C, though it is evaluated after the body runs once.",
+        "c": "Incorrect. This is a standard repetition construct used for conditional iteration.",
+        "d": "Incorrect. This is a standard loop used when the iteration count is known."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What is the output of the following code? <br/> <img src='images/code13.png'>",
+      "answers": {
+        "a": "Syntax Error",
+        "b": "1 2 ",
+        "c": "1 2 3",
+        "d": "Print nothing"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. The code is syntactically valid and the statements are in a proper loop form.",
+        "b": "Incorrect. The condition is checked before any iteration begins, so the loop does not continue in the way this option suggests.",
+        "c": "Incorrect. The loop body is not entered because the condition is never satisfied.",
+        "d": "Correct. The loop does not execute, so nothing is printed."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. What is the output of the following code? <br/> <img src='images/code14.png'>",
+      "answers": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "3"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. The loop executes once, printing 0, then i becomes -1 and the loop ends.",
+        "b": "Incorrect. The body runs before the variable is changed, so the first output is not higher than the initial value.",
+        "c": "Incorrect. The loop does not continue long enough to produce a larger first output.",
+        "d": "Incorrect. The loop ends after a single pass in this case."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. What is the output of the following code? <br/> <img src='images/code15.png'>",
+      "answers": {
+        "a": "Hello World",
+        "b": "Syntax error",
+        "c": "Print nothing",
+        "d": "Run Time error"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. The loop does not terminate normally, so the program does not reach a clean final output.",
+        "b": "Incorrect. The code is valid C syntax even though the control flow is problematic.",
+        "c": "Incorrect. The loop is not designed to stop immediately, so the body continues to repeat.",
+        "d": "Correct. The code results in a runtime error due to infinite loop with decreasing i."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. What is the output of the following code? <br/> <img src='images/code16.png'>",
+      "answers": {
+        "a": "Syntax Error",
+        "b": "Hello",
+        "c": "HelloHello",
+        "d": "Infinite Loop"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. The code is syntactically valid and follows correct loop syntax.",
+        "b": "Incorrect. The body executes repeatedly and does not stop after a single pass.",
+        "c": "Incorrect. The iteration keeps repeating, so the statement is not a one-time or two-time print.",
+        "d": "Correct. The code is an infinite loop printing 'Hello'."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. What is the output of the following code? <br/> <img src='images/code17.png'>",
+      "answers": {
+        "a": "1",
+        "b": "2",
+        "c": "1 2 ",
+        "d": "1 2 3"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. The loop does more than a single print during its execution.",
+        "b": "Incorrect. The loop control variable is processed through more than one value before stopping.",
+        "c": "Correct. The loop prints 1 and 2, then stops.",
+        "d": "Incorrect. The loop terminates before a third value is generated."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "8. How many '*' will this code print? <br/> <img src='images/code18.png'>",
+      "answers": {
+        "a": "25",
+        "b": "20",
+        "c": "15",
+        "d": "10"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. The nested iteration count is lower than 25 for the given bounds.",
+        "b": "Incorrect. The total prints are determined by the nested loop structure, not a single loop count.",
+        "c": "Correct. The nested loops print 15 '*' in total.",
+        "d": "Incorrect. The loops together perform more iterations than this option suggests."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "9. Which of the following is an exit-controlled loop?",
+      "answers": {
+        "a": "For",
+        "b": "While",
+        "c": "Do-While",
+        "d": "None of the above"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. A for loop checks the condition before each iteration begins.",
+        "b": "Incorrect. A while loop evaluates its condition before the body executes.",
+        "c": "Correct. 'Do-While' is an exit-controlled loop because the condition is checked after the body.",
+        "d": "Incorrect. One of the standard loop types is exit-controlled."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "10. Which among the following is an unconditional control structure?",
+      "answers": {
+        "a": "Goto",
+        "b": "Break",
+        "c": "Continue",
+        "d": "If else"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. 'Goto' is an unconditional control structure as it transfers control unconditionally.",
+        "b": "Incorrect. This statement jumps out of a loop or switch rather than transferring control unconditionally.",
+        "c": "Incorrect. This keyword skips the remaining body and continues to the next iteration.",
+        "d": "Incorrect. This is a conditional branch structure, not an unconditional jump."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}

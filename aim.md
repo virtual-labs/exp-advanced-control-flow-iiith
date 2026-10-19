@@ -1,0 +1,7 @@
+A computer program is a sequence of instructions that a computer follows to solve a problem. However, the order in which instructions are written and the order in which they are executed may differ. If every program executed instructions strictly in sequence, it would always run the same way. To create more complex programs that can make decisions based on user input or variable values, we need mechanisms to alter the flow of execution. This is known as control flow.
+
+For example, consider a real-life scenario: "If the traffic light is green, keep moving; if yellow, then wait; if red, then stop." In programming, decision-making means choosing which statement to execute next based on the value of a variable or an expression. Constructs like 'if' and 'switch' allow programs to make decisions and change the flow of execution. These are called conditional statements, and they can be nested to create more complex control flows.
+
+Another important aspect of control flow is repetition, which is handled by loop constructs. Loops allow a set of instructions to be executed multiple times, either for a fixed number of iterations or until a specific condition is met. Loops and conditionals can also be nested within each other to build advanced control structures.
+
+Aim of the experiment is to understand and implement advanced control flow mechanisms in computer programming, including conditional statements and loops, to create programs that can make decisions and repeat actions based on conditions.

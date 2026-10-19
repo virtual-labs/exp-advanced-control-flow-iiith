@@ -1,0 +1,21 @@
+
+/home/runner/work/exp-advanced-control-flow-iiith/exp-advanced-control-flow-iiith/experiment/simulation/js/advControlFlow.js
+  153:7   warning  'view' is not defined   no-undef
+  156:7   warning  'view' is not defined   no-undef
+  159:7   warning  'view' is not defined   no-undef
+  162:7   warning  'view' is not defined   no-undef
+  165:7   warning  'view' is not defined   no-undef
+  168:7   warning  'view' is not defined   no-undef
+  171:7   warning  'view' is not defined   no-undef
+  172:7   warning  'view' is not defined   no-undef
+  300:18  warning  'model' is not defined  no-undef
+  311:18  warning  'model' is not defined  no-undef
+  333:3   warning  'view' is not defined   no-undef
+
+/home/runner/work/exp-advanced-control-flow-iiith/exp-advanced-control-flow-iiith/experiment/simulation/js/mobile-detection.js
+  293:7   warning  'mobileDetection' is assigned a value but never used  no-unused-vars
+  296:38  warning  'module' is not defined                               no-undef
+  297:3   warning  'module' is not defined                               no-undef
+
+✖ 14 problems (0 errors, 14 warnings)
+
