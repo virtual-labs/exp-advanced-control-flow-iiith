@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/advControlFlow.css" />
+    <script src="js/advControlFlow.js"></script>
+    <script src="js/mobile-detection.js"></script>
+  </head>
+
+  <body>
+    <div class="inputDivision">
+      <div class="inputDivisionTitle">
+        <div class="initializePic"></div>
+        <div class="initializeText">Initialize</div>
+      </div>
+      <div class="inputDivisionBody">
+        <div class="simpleLoopBlock" id="inputDivisionSimpleLoop">
+          <div class="instructionText">Select Loop Type</div>
+          <select class="button loopList" id="loopList">
+            <option value="for" id="optionFor">for</option>
+            <option value="while" id="optionWhile">while</option>
+            <option value="do-while" id="optionDoWhile">do-while</option>
+          </select>
+          <div class="instructionText">Enter P (0 to 12) to calculate P!</div>
+          <input
+            class="inputField marginBottom"
+            type="text"
+            id="simpleLoopInput"
+          />
+          <button class="button startButton" id="btnStart">Start</button>
+          <button class="buttonDisable nextButton" id="btnNext" disabled>
+            Next
+          </button>
+          <button class="button switchButton marginTop" id="btnNestedLoop">
+            Switch to Nested Loop
+          </button>
+        </div>
+        <!-- end of arraySizeInputBlock -->
+        <div class="nestedLoopBlock" id="nested" style="display: none">
+          <div class="instructionText">Enter height of pyramid (1 to 7)</div>
+          <input
+            class="inputField marginBottom"
+            type="text"
+            id="nestedLoopInput"
+          />
+          <button class="button startButton" id="nestedStartBtn">Start</button>
+          <button class="buttonDisable nextButton" id="nestedNextBtn" disabled>
+            Next
+          </button>
+          <button class="button switchButton marginTop" id="btnSimpleLoop">
+            Switch to Simple Loop
+          </button>
+        </div>
+        <!-- end of arraySizeInputBlock -->
+      </div>
+      <!-- end of inputDivisionBody -->
+    </div>
+    <!-- end of inputDivision -->
+    <div class="executionDivision">
+      <div class="executionDivisionTitle">
+        <div class="executionPic"></div>
+        <div class="executionText">Step Execution</div>
+      </div>
+      <div class="stepExecutionDisplay">
+        <div id="forLoopContent">
+          <div class="hide" id="f1">int main(){</div>
+          <div class="hide" id="f2">&emsp;int p;</div>
+          <div class="hide" id="f3">&emsp;scanf("%d", &amp;p);</div>
+          <div class="hide" id="f4">&emsp;int fact=1;</div>
+          <div class="hide" id="f5">&emsp;if(p==0)</div>
+          <div class="hide" id="f6">&emsp;{</div>
+          <div class="hide" id="f7">&emsp;&emsp;printf("1");</div>
+          <div class="hide" id="f8">&emsp;&emsp;return 0;</div>
+          <div class="hide" id="f9">&emsp;}</div>
+          <div class="hide" id="f10">&emsp;for(int i=p;i&gt;=1;i--)</div>
+          <div class="hide" id="f11">&emsp;{</div>
+          <div class="hide" id="f12">&emsp;&emsp;fact=fact*i;</div>
+          <div class="hide" id="f13">&emsp;}</div>
+          <div class="hide" id="f14">&emsp;printf("%d", fact);</div>
+          <div class="hide" id="f15">&emsp;return 0;</div>
+          <div class="hide" id="f16">}</div>
+        </div>
+        <div id="whileLoopContent">
+          <div class="hide" id="w1">int main(){</div>
+          <div class="hide" id="w2">&emsp;int p;</div>
+          <div class="hide" id="w3">&emsp;scanf("%d", &amp;p);</div>
+          <div class="hide" id="w4">&emsp;int fact=1;</div>
+          <div class="hide" id="w5">&emsp;int i=p;</div>
+          <div class="hide" id="w6">&emsp;if(p==0)</div>
+          <div class="hide" id="w7">&emsp;{</div>
+          <div class="hide" id="w8">&emsp;&emsp;printf("1");</div>
+          <div class="hide" id="w9">&emsp;&emsp;return 0;</div>
+          <div class="hide" id="w10">&emsp;}</div>
+          <div class="hide" id="w11">&emsp;while(i&gt;=1)</div>
+          <div class="hide" id="w12">&emsp;{</div>
+          <div class="hide" id="w13">&emsp;&emsp;fact=fact*i;</div>
+          <div class="hide" id="w14">&emsp;&emsp;i--;</div>
+          <div class="hide" id="w15">&emsp;}</div>
+          <div class="hide" id="w16">&emsp;printf("%d", fact);</div>
+          <div class="hide" id="w17">&emsp;return 0;</div>
+          <div class="hide" id="w18">}</div>
+        </div>
+        <div id="dowhileLoopContent">
+          <div class="hide" id="d1">int main(){</div>
+          <div class="hide" id="d2">&emsp;int p;</div>
+          <div class="hide" id="d3">&emsp;scanf("%d", &amp;p);</div>
+          <div class="hide" id="d4">&emsp;int fact=1;</div>
+          <div class="hide" id="d5">&emsp;int i=p;</div>
+          <div class="hide" id="d6">&emsp;if(p==0)</div>
+          <div class="hide" id="d7">&emsp;{</div>
+          <div class="hide" id="d8">&emsp;&emsp;printf("1");</div>
+          <div class="hide" id="d9">&emsp;&emsp;return 0;</div>
+          <div class="hide" id="d10">&emsp;}</div>
+          <div class="hide" id="d11">&emsp;do</div>
+          <div class="hide" id="d12">&emsp;{</div>
+          <div class="hide" id="d13">&emsp;&emsp;fact=fact*i;</div>
+          <div class="hide" id="d14">&emsp;&emsp;i--;</div>
+          <div class="hide" id="d15">&emsp;}while(i&gt;=1);</div>
+          <div class="hide" id="d16">&emsp;printf("%d", fact);</div>
+          <div class="hide" id="d17">&emsp;return 0;</div>
+          <div class="hide" id="d18">}</div>
+        </div>
+        <div id="nestedLoopContent">
+          <div class="hide" id="n1">int main(){</div>
+          <div class="hide" id="n2">&emsp;int i,j,k;</div>
+          <div class="hide" id="n3">&emsp;int height;</div>
+          <div class="hide" id="n4">&emsp;scanf("%d", &amp;height);</div>
+          <div class="hide" id="n5">&emsp;for(i=0;i&lt;height;i++)</div>
+          <div class="hide" id="n6">&emsp;{</div>
+          <div class="hide" id="n7">&emsp;&emsp;for(j=0;j&lt;height-i-1;j++)</div>
+          <div class="hide" id="n8">&emsp;&emsp;{</div>
+          <div class="hide" id="n9">&emsp;&emsp;&emsp;printf(" ");</div>
+          <div class="hide" id="n10">&emsp;&emsp;}</div>
+          <div class="hide" id="n11">&emsp;&emsp;for(k=j;k&lt;height-1;k++)</div>
+          <div class="hide" id="n12">&emsp;&emsp;{</div>
+          <div class="hide" id="n13">&emsp;&emsp;&emsp;printf("*");</div>
+          <div class="hide" id="n14">&emsp;&emsp;&emsp;printf(" ");</div>
+          <div class="hide" id="n15">&emsp;&emsp;}</div>
+          <div class="hide" id="n16">&emsp;&emsp;printf("*");</div>
+          <div class="hide" id="n17">&emsp;&emsp;for(j=0;j&lt;height-i-1;j++)</div>
+          <div class="hide" id="n18">&emsp;&emsp;{</div>
+          <div class="hide" id="n19">&emsp;&emsp;&emsp;printf(" ");</div>
+          <div class="hide" id="n20">&emsp;&emsp;}</div>
+          <div class="hide" id="n21">&emsp;&emsp;printf("\n");</div>
+          <div class="hide" id="n22">&emsp;}</div>
+          <div class="hide" id="n23">&emsp;return 0;</div>
+          <div class="hide" id="n24">}</div>
+        </div>
+      </div>
+      <!-- end of stepExecutionDisplay -->
+    </div>
+    <!-- end of executionDivision -->
+
+    <div class="outputDivision">
+      <div class="outputDivisionTitle">
+        <div class="outputPic"></div>
+        <div class="outputText">Code Output</div>
+      </div>
+      <div class="resultDisplay">
+        <div class="localVariableTitle">Local Variables :</div>
+        <div class="localVariables" id="simpleLoopLocalVariables">
+          <div class="variableBox">
+            <div class="variableName">p :</div>
+            <div class="variableValue" id="localVariableP"></div>
+          </div>
+          <div class="variableBox">
+            <div class="variableName">i :</div>
+            <div class="variableValue" id="localVariableI"></div>
+          </div>
+          <div class="variableBox">
+            <div class="variableName">fact :</div>
+            <div class="variableValue" id="localVariableFact"></div>
+          </div>
+        </div>
+        <div class="localVariables hide" id="nestedLoopLocalVariables">
+          <div class="variableBox">
+            <div class="variableName">height :</div>
+            <div class="variableValue" id="nestedlocalVariableHeight"></div>
+          </div>
+          <div class="variableBox">
+            <div class="variableName">i :</div>
+            <div class="variableValue" id="nestedlocalVariableI"></div>
+          </div>
+          <div class="variableBox">
+            <div class="variableName">j :</div>
+            <div class="variableValue" id="nestedlocalVariableJ"></div>
+          </div>
+          <div class="variableBox">
+            <div class="variableName">k :</div>
+            <div class="variableValue" id="nestedlocalVariableK"></div>
+          </div>
+        </div>
+        <div class="stepNote" id="stepNote"></div>
+        <div class="outputResult" id="resultDisplay"></div>
+      </div>
+      <!-- end of resultDisplay -->
+    </div>
+    <!-- end of outputDivision -->
+  <script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>
