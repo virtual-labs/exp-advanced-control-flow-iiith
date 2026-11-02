@@ -90,12 +90,12 @@
         "c": "HelloHello",
         "d": "Infinite Loop"
       },
-      "correctAnswer": "d",
+      "correctAnswer": "b",
       "explanations": {
         "a": "Incorrect. The code is syntactically valid and follows correct loop syntax.",
-        "b": "Incorrect. The body executes repeatedly and does not stop after a single pass.",
-        "c": "Incorrect. The iteration keeps repeating, so the statement is not a one-time or two-time print.",
-        "d": "Correct. The code is an infinite loop printing 'Hello'."
+        "b": "Correct. A do-while loop executes its body at least once before checking the condition. Initially, i = 0. After printing 'Hello', i becomes 1. Since 1 > 1 is false, the loop terminates after one iteration.",
+        "c": "Incorrect. The loop prints 'Hello' only once because the condition i > 1 is false after the first iteration.",
+        "d": "Incorrect. The loop is not infinite. After the first iteration, i = 1, making the condition i > 1 false, so the loop terminates."
       },
       "difficulty": "intermediate"
     },
